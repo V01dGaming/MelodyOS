@@ -1,7 +1,7 @@
-local nextFile = "/os"
+local nextFile = "/OS"
 local files = {
 	[1] = {
-		"startup.lua",
+		"startup",
 		"https://raw.githubusercontent.com/V01dGaming/MelodyOS/master/startup.lua"
 	},
 	[2] = {
@@ -13,8 +13,8 @@ local files = {
 		"https://raw.githubusercontent.com/V01dGaming/MelodyOS/master/Sys/API/.touchpoint"
 	},
 	[4] = {
-		"OS.lua",
-		""
+		"OS",
+		"https://raw.githubusercontent.com/V01dGaming/MelodyOS/master/OS"
 	}
 }
 
