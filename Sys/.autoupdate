@@ -1,7 +1,9 @@
 local nextFile = "/os"
 local files = {
-	[1] = { "/Sys/.autoupdate"
-}
+	[1] = {
+		"/Sys/.autoupdate",
+		"https://raw.githubusercontent.com/V01dGaming/MelodyOS/master/Sys/.autoupdate"
+	},
 
 
 
