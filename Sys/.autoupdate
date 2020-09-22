@@ -9,7 +9,11 @@ local files = {
 		"https://raw.githubusercontent.com/V01dGaming/MelodyOS/master/Sys/.autoupdate"
 	},
 	[3] = {
-		"Sys/.touchpoint",
+		"Sys/API/.touchpoint",
+		"https://raw.githubusercontent.com/V01dGaming/MelodyOS/master/Sys/API/.touchpoint"
+	},
+	[4] = {
+		"OS.lua",
 		""
 	}
 }
