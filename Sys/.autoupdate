@@ -1,9 +1,18 @@
 local nextFile = "/os"
 local files = {
 	[1] = {
+		"startup.lua",
+		"https://raw.githubusercontent.com/V01dGaming/MelodyOS/master/startup.lua"
+	},
+	[2] = {
 		"/Sys/.autoupdate",
 		"https://raw.githubusercontent.com/V01dGaming/MelodyOS/master/Sys/.autoupdate"
 	},
+	[3] = {
+		"Sys/.touchpoint",
+		""
+	}
+}
 
 
 
