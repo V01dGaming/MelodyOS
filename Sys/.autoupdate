@@ -20,7 +20,7 @@ local files = {
 
 
 
-remoteVersion = http.get("")
+remoteVersion = http.get("https://raw.githubusercontent.com/V01dGaming/MelodyOS/master/Sys/remoteVersion")
 
 local localVersion = fs.open("Sys/.version", "r")
 local rVersion = remoteVersion.readAll()

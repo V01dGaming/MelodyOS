@@ -1,4 +1,27 @@
-os.pullEvent = os.pullEventRaw
+os.loadAPI("/Sys/API/menu")
 term.clear()
-term.setCursorPos(1,1)
-print("Boot complete!")
+
+term.setTextColor(colors.lime)
+
+local m = menu.new()
+
+--[[ Main Menu ]]--
+
+m:addScreen("main",
+[[
+MelodyOS
+
+Logs @logs
+
+Update @logs
+
+Shutdown
+]])
+
+m:addScreen("logs",
+[[
+Log 1 - 2025
+]])
+
+
+m:displayScreen("main")()
