@@ -1,8 +1,6 @@
 os.pullEvent = os.pullEventRaw
 local menu_options = {
-	[1] = {text="Logs", color=colors.lime},
-	[2] = {text="Update", color=colors.lime},
-	[3] = {text="Shutdown", color=colors.lime}
+	[1] = {text="Log 1 - ERROR", color=colors.red}
 }
 local termX, termY = term.getSize()
 local function menuDraw(selected)
@@ -46,13 +44,7 @@ while true do
 			selector = selector > 1 and selector-1 or #menu_options
 		elseif e[2] == keys.enter then
 			if selector == 1 then
-				shell.run("/Programs/.logs")
-			end
-			if selector == 2 then
-				shell.run("/Sys/.autoupdate")
-			end
-			if selector == 3 then
-				os.shutdown()
+				shell.run("/OS")
 			end
     end
   end
